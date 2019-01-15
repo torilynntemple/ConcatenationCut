@@ -7,7 +7,7 @@ function ms = get_videoData(dirName, filePrefix)
 %   create a list of video objects of each .avi file and record frame
 %   number, frame index and file # index. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Modified by Émmanuel Wilson and Tori
+%Modified by Ã‰mmanuel Wilson and Tori
 
 %     MAXFRAMESPERFILE = 1000; %This is set in the miniscope control software
 %     ms.dirName = dirName;
@@ -413,4 +413,4 @@ function ms = get_videoData(dirName, filePrefix)
             str2double(dirName((idx(end-1)+2):(idx(end)-1))), ...%minute
             str2double(dirName((idx(end)+2):end)));%second
     end
-end
+end 
